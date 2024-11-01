@@ -19,9 +19,10 @@ Um aplicativo móvel de lista de tarefas desenvolvido com React Native e Expo. O
 
 ## Screenshots
 
-![Tela do App](https://drive.google.com/uc?id=1cy2YTYnkq-gkCjbkbXdeQax-CX5VX9m-)
-![Tela do App](https://drive.google.com/uc?id=1cy2YTYnkq-gkCjbkbXdeQax-CX5VX9m-)
-![Tela do App](https://drive.google.com/uc?id=1cy2YTYnkq-gkCjbkbXdeQax-CX5VX9m-)
+
+<img src="https://drive.google.com/uc?id=1cy2YTYnkq-gkCjbkbXdeQax-CX5VX9m-" alt="Tela do App" width="300"/>
+<img src="https://drive.google.com/uc?id=1cy2YTYnkq-gkCjbkbXdeQax-CX5VX9m-" alt="Tela do App" width="300"/>
+<img src="https://drive.google.com/uc?id=1cy2YTYnkq-gkCjbkbXdeQax-CX5VX9m-" alt="Tela do App" width="300"/>
 
 ## Instalação
 
