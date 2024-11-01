@@ -18,10 +18,11 @@ Um aplicativo móvel de lista de tarefas desenvolvido com React Native e Expo. O
 -   [Expo Google Fonts](https://docs.expo.dev/develop/user-interface/fonts/) Um pacote que facilita a inclusão de fontes do Google Fonts em aplicativos Expo. Neste projeto, a fonte Roboto foi utilizada, proporcionando uma tipografia moderna e legível, ideal para interfaces de usuário.
 
 ## Screenshots
-
-![Tela do App](https://drive.google.com/uc?id=1cy2YTYnkq-gkCjbkbXdeQax-CX5VX9m-)
-![Tela do App](https://drive.google.com/uc?id=1cy2YTYnkq-gkCjbkbXdeQax-CX5VX9m-)
-![Tela do App](https://drive.google.com/uc?id=1cy2YTYnkq-gkCjbkbXdeQax-CX5VX9m-)
+<div style="display: flex; gap: 10px;">
+    <img src="https://drive.google.com/uc?id=1cy2YTYnkq-gkCjbkbXdeQax-CX5VX9m-" alt="Tela do App" width="200"/>
+     <img src="https://drive.google.com/uc?id=1cwXTpbEl3CJCla6C1M3WooENMsOK5u34" alt="Tela do App" width="200"/>
+    <img src="https://drive.google.com/uc?id=1cmIAumRsF4tlkKB4Z1sv549deIYxxmKu" alt="Tela do App" width="200"/>
+</div>
 
 ## Instalação
 
