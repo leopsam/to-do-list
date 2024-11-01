@@ -7,15 +7,17 @@ import {
     ButtonItem,
 } from './styles'
 
-export function Header() {
+export function Header({ taskTitle, onTaskTextChange, onAddTask }) {
     return (
         <HeaderContainer>
             <Title>Lista de tarefas</Title>
             <FormContainer>
                 <InputItem
-                    placeholder="Adicione uma nova tarefa"                   
+                    placeholder="Adicione uma nova tarefa"
+                    value={taskTitle}
+                    onChangeText={onTaskTextChange}
                 />
-                <ButtonItem>
+                <ButtonItem onPress={onAddTask}>
                     <MaterialCommunityIcons
                         name="plus"
                         size={35}

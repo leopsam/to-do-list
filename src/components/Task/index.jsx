@@ -2,11 +2,11 @@ import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons'
 import { TouchableOpacity } from 'react-native'
 import { TaskContainer, ContainerText, TitleTask } from './styles'
 
-export function Task({id, title, isDone,}) {
+export function Task({ id, title, isDone, onTaskDone, onTaskDeleted }) {
     return (
-        <TaskContainer>
-            <TouchableOpacity>
-            <MaterialCommunityIcons
+        <TaskContainer isDone={isDone}>
+            <TouchableOpacity onPress={() => onTaskDone(id)}>
+                <MaterialCommunityIcons
                     name={
                         isDone
                             ? 'checkbox-marked-outline'
@@ -17,9 +17,9 @@ export function Task({id, title, isDone,}) {
                 />
             </TouchableOpacity>
             <ContainerText>
-            <TitleTask isDone={isDone}>{title}</TitleTask>
+                <TitleTask isDone={isDone}>{title}</TitleTask>
             </ContainerText>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => onTaskDeleted(id)}>
                 <MaterialCommunityIcons
                     name="trash-can-outline"
                     size={24}
