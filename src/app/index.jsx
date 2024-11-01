@@ -1,10 +1,10 @@
-import { Text } from 'react-native'
 import { MainContainer } from './styles'
+import { Header } from '../components/Header'
 
 export function Home() {
     return (
         <MainContainer>
-           <Text>Bem vindo a home</Text>
+           <Header />
         </MainContainer>
     )
 }
